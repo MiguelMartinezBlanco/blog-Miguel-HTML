@@ -1,24 +1,34 @@
 <html>
     <head>
         <title>Blog Musical</title>
+        <link rel="stylesheet" href="estilos.css"
     </head>
     <body>
         <header>
-            <h1>Blog sobre diferentes tipos de musica</h1>
-            <img src="imagen.png" alt="Logotipo Santagema" width="400" height="200" class="logo">
+            <h1>Blog sobre cantantes que me gustan</h1>
+            <div class="fotosantagema">
+            <img src="imagen.jpg" alt="Logotipo Santagema" width="400px" height="200px">  
+            </div>
         </header>
         <h3>Aqui hablare de diferentes cantantes y canciones que mas me gustan</h3>
         <h4>Menu de direcciones a las diferentes partes de blog:</h4>
         <nav>
             <ul>
                 <li><a href="kanye-west.html">Kanye West</a></li>
+                <div class="kanye">
+                <img src="kanyea.png" alt="Logotipo Santagema" width="200px" height="100px">  
+                 </div>
+                 <div class="carti"></div>
                 <li><a href="playboi-carti.html">Playboi Carti</a></li>
+                <img src="carti.jpg" alt="Logotipo Santagema" width="200px" height="100px">  
+                 </div>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
         <main>
         <section id="contacto">
             <body>
+                <div class="contacto">
                 <h2>Formulario de Contacto</h2>
                     <p>En esta parte del blog podras contactar con el creador para dar tu opinion</p>
                 <form action="enviar.html" method="post">
@@ -33,10 +43,9 @@
         
                     <label for="fecha">Fecha de nacimiento:</label><br>
                     <input type="date" id="fecha" name="fecha" ></input><br>
-        
                     <button type="submit">Enviar</button>
                 </form>
-        
+            </div>
             </body>
         </section>
     </body>
